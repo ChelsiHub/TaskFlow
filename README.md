@@ -22,7 +22,7 @@ TaskFlow is a Python-based **Task Automation & Reporting System** designed to he
 ## Installation
 
 1. Clone the repository:  
-   ```bash
+```bash
    git clone <repository-url>
 ```
 2. (Optional) Create a virtual environment:
@@ -39,20 +39,35 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Run the main Python script:  
-   ```bash
-   python main.py
-2. Follow the console prompts to add, assign, and manage tasks.
-3. Reports and notifications are generated automatically.
+1. Run the main Python script:
+```bash
+python main.py
+```
+3. Follow the console prompts to add, assign, and manage tasks.
+4. Reports and notifications are generated automatically.
 
 ## Folder Structure
+```text
+taskflow/
+│
+├─ taskflow/
+│  ├─ task_manager.py        # Core task logic
+│  ├─ reporting.py           # Progress report generation
+│  ├─ notifications.py       # Email notifications
+│  └─ utils.py               # Helper functions
+│
+├─ main.py                   # Entry point
+├─ requirements.txt           # Libraries used
+└─ README.md
+
+```
 
 ## Contributing
 
 1. Fork the repository  
 2. Create a branch:  
-   ```bash
-   git checkout -b feature/YourFeature
+```bash
+git checkout -b feature/YourFeature
 ```
 3. Commit your changes:
 ```bash

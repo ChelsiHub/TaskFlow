@@ -1,0 +1,5 @@
+python-dotenv==1.2.1
+schedule==1.2.2
+reportlab==4.4.7
+yagmail==0.15.293
+rich==9.13.0

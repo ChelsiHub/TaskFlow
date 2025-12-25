@@ -1,0 +1,7 @@
+task_id,task_name,status,start_time,end_time,duration_seconds,error_message
+task_101,Clean Log Files,FAILED,2025-12-25T21:04:13.872962,2025-12-25T21:04:13.882341,0.009379,Directory not found: temp
+task_102,Backup Data Folder,FAILED,2025-12-25T21:04:13.886584,2025-12-25T21:04:13.888876,0.002292,[WinError 3] The system cannot find the path specified: 'data'
+task_103,Copy Sample File,FAILED,2025-12-25T21:04:13.894798,2025-12-25T21:04:13.897985,0.003187,[Errno 2] No such file or directory: 'data/sample.txt'
+task_101,Clean Log Files,FAILED,2025-12-25T21:05:13.967187,2025-12-25T21:05:13.967423,0.000236,Directory not found: temp
+task_102,Backup Data Folder,FAILED,2025-12-25T21:05:13.970677,2025-12-25T21:05:13.971187,0.00051,[WinError 3] The system cannot find the path specified: 'data'
+task_103,Copy Sample File,FAILED,2025-12-25T21:05:13.974163,2025-12-25T21:05:13.974881,0.000718,[Errno 2] No such file or directory: 'data/sample.txt'

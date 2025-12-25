@@ -1,0 +1,118 @@
+2025-12-25 20:37:11,702 | INFO | TaskFlow | TaskFlow application started
+2025-12-25 20:37:11,703 | INFO | TaskFlow | Executing main workflow
+2025-12-25 20:37:11,703 | INFO | TaskFlow | Task executed successfully. Result: 5.0
+2025-12-25 20:37:11,703 | INFO | TaskFlow | Application execution finished
+2025-12-25 20:41:53,570 | INFO | TaskFlow | TaskFlow started
+2025-12-25 20:41:53,571 | INFO | TaskFlow | Task added successfully
+2025-12-25 20:41:53,572 | INFO | TaskFlow | Task ID=task_001, Name=Daily Report Generation, Enabled=True, Status=PENDING
+2025-12-25 20:41:53,572 | INFO | TaskFlow | Task disabled
+2025-12-25 20:41:53,573 | INFO | TaskFlow | TaskFlow finished
+2025-12-25 20:42:31,441 | INFO | TaskFlow | TaskFlow started
+2025-12-25 20:42:31,444 | INFO | TaskFlow | Task added successfully
+2025-12-25 20:42:31,445 | INFO | TaskFlow | Task ID=task_001, Name=Daily Report Generation, Enabled=False, Status=PENDING
+2025-12-25 20:42:31,445 | INFO | TaskFlow | Task ID=task_001, Name=Daily Report Generation, Enabled=True, Status=PENDING
+2025-12-25 20:42:31,446 | INFO | TaskFlow | Task disabled
+2025-12-25 20:42:31,446 | INFO | TaskFlow | TaskFlow finished
+2025-12-25 20:43:04,631 | INFO | TaskFlow | TaskFlow started
+2025-12-25 20:43:04,632 | INFO | TaskFlow | Task added successfully
+2025-12-25 20:43:04,633 | INFO | TaskFlow | Task ID=task_001, Name=Daily Report Generation, Enabled=True, Status=PENDING
+2025-12-25 20:43:04,634 | INFO | TaskFlow | Task disabled
+2025-12-25 20:43:04,634 | INFO | TaskFlow | TaskFlow finished
+2025-12-25 20:47:45,563 | INFO | TaskFlow | TaskFlow started
+2025-12-25 20:47:45,564 | INFO | TaskFlow | Automation Engine started
+2025-12-25 20:47:45,564 | INFO | TaskFlow | Running task: Clean Log Files
+2025-12-25 20:47:45,568 | ERROR | TaskFlow | Task failed: Clean Log Files | Error: Directory not found: temp
+2025-12-25 20:47:45,570 | INFO | TaskFlow | Running task: Backup Data Folder
+2025-12-25 20:47:45,574 | ERROR | TaskFlow | Task failed: Backup Data Folder | Error: [WinError 3] The system cannot find the path specified: 'data'
+2025-12-25 20:47:45,576 | INFO | TaskFlow | Running task: Copy Sample File
+2025-12-25 20:47:45,580 | ERROR | TaskFlow | Task failed: Copy Sample File | Error: [Errno 2] No such file or directory: 'data/sample.txt'
+2025-12-25 20:47:45,581 | INFO | TaskFlow | Automation Engine finished
+2025-12-25 20:47:45,581 | INFO | TaskFlow | TaskFlow finished
+2025-12-25 20:52:34,743 | INFO | TaskFlow | TaskFlow started
+2025-12-25 20:52:34,743 | INFO | TaskFlow | Scheduler mode enabled
+2025-12-25 20:52:34,745 | INFO | TaskFlow | Starting scheduler (every 30 minutes)
+2025-12-25 20:55:49,908 | INFO | TaskFlow | TaskFlow started
+2025-12-25 20:55:49,909 | INFO | TaskFlow | Scheduler mode enabled
+2025-12-25 20:55:49,909 | INFO | TaskFlow | Starting scheduler (every 30 minutes)
+2025-12-25 20:56:33,313 | INFO | TaskFlow | TaskFlow started
+2025-12-25 20:56:33,313 | INFO | TaskFlow | Scheduler mode enabled
+2025-12-25 20:56:33,314 | INFO | TaskFlow | Starting scheduler (every 30 minutes)
+2025-12-25 21:01:33,893 | INFO | TaskFlow | TaskFlow started
+2025-12-25 21:01:33,894 | INFO | TaskFlow | Starting scheduler (every 30 minutes)
+2025-12-25 21:03:13,830 | INFO | TaskFlow | TaskFlow started
+2025-12-25 21:03:13,831 | INFO | TaskFlow | Starting scheduler (every 1 minutes)
+2025-12-25 21:04:13,871 | INFO | TaskFlow | Scheduler triggered task execution
+2025-12-25 21:04:13,872 | INFO | TaskFlow | Automation Engine started
+2025-12-25 21:04:13,873 | INFO | TaskFlow | Running task: Clean Log Files
+2025-12-25 21:04:13,882 | ERROR | TaskFlow | Task failed: Clean Log Files | Directory not found: temp
+2025-12-25 21:04:13,886 | INFO | TaskFlow | Running task: Backup Data Folder
+2025-12-25 21:04:13,889 | ERROR | TaskFlow | Task failed: Backup Data Folder | [WinError 3] The system cannot find the path specified: 'data'
+2025-12-25 21:04:13,894 | INFO | TaskFlow | Running task: Copy Sample File
+2025-12-25 21:04:13,898 | ERROR | TaskFlow | Task failed: Copy Sample File | [Errno 2] No such file or directory: 'data/sample.txt'
+2025-12-25 21:04:13,901 | INFO | TaskFlow | Automation Engine finished
+2025-12-25 21:05:13,966 | INFO | TaskFlow | Scheduler triggered task execution
+2025-12-25 21:05:13,967 | INFO | TaskFlow | Automation Engine started
+2025-12-25 21:05:13,967 | INFO | TaskFlow | Running task: Clean Log Files
+2025-12-25 21:05:13,967 | ERROR | TaskFlow | Task failed: Clean Log Files | Directory not found: temp
+2025-12-25 21:05:13,970 | INFO | TaskFlow | Running task: Backup Data Folder
+2025-12-25 21:05:13,971 | ERROR | TaskFlow | Task failed: Backup Data Folder | [WinError 3] The system cannot find the path specified: 'data'
+2025-12-25 21:05:13,974 | INFO | TaskFlow | Running task: Copy Sample File
+2025-12-25 21:05:13,974 | ERROR | TaskFlow | Task failed: Copy Sample File | [Errno 2] No such file or directory: 'data/sample.txt'
+2025-12-25 21:05:13,977 | INFO | TaskFlow | Automation Engine finished
+2025-12-25 21:54:27,041 | ERROR | TaskFlow | Failed to send email to recipient1@gmail.com | [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028)
+2025-12-25 21:54:27,434 | ERROR | TaskFlow | Failed to send email to recipient2@gmail.com | [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028)
+2025-12-25 21:54:27,434 | INFO | TaskFlow | Daily Execution Summary
+2025-12-25 21:54:27,434 | INFO | TaskFlow | Total Runs   : 6
+2025-12-25 21:54:27,434 | INFO | TaskFlow | Successful  : 0
+2025-12-25 21:54:27,434 | INFO | TaskFlow | Failed      : 6
+2025-12-25 21:54:27,438 | INFO | TaskFlow | CSV report generated: C:\Users\sunil\OneDrive\Desktop\Projects\TaskFlow\src\reports_output\execution_report_2025-12-25.csv
+2025-12-25 21:54:27,883 | ERROR | TaskFlow | Failed to send daily summary to recipient1@gmail.com | [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028)
+2025-12-25 21:54:28,278 | ERROR | TaskFlow | Failed to send daily summary to recipient2@gmail.com | [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028)
+2025-12-25 21:56:51,242 | ERROR | TaskFlow | Failed to send email to recipient1@gmail.com | (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7ff7aa328aesm19738170b3a.5 - gsmtp')
+2025-12-25 21:56:53,808 | ERROR | TaskFlow | Failed to send email to recipient2@gmail.com | (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2a2f3d4cb25sm187106735ad.56 - gsmtp')
+2025-12-25 21:56:53,808 | INFO | TaskFlow | Daily Execution Summary
+2025-12-25 21:56:53,809 | INFO | TaskFlow | Total Runs   : 6
+2025-12-25 21:56:53,809 | INFO | TaskFlow | Successful  : 0
+2025-12-25 21:56:53,809 | INFO | TaskFlow | Failed      : 6
+2025-12-25 21:56:53,812 | INFO | TaskFlow | CSV report generated: C:\Users\sunil\OneDrive\Desktop\Projects\TaskFlow\src\reports_output\execution_report_2025-12-25.csv
+2025-12-25 21:56:55,747 | ERROR | TaskFlow | Failed to send daily summary to recipient1@gmail.com | (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c1e7c7263a3sm16897632a12.32 - gsmtp')
+2025-12-25 21:56:58,503 | ERROR | TaskFlow | Failed to send daily summary to recipient2@gmail.com | (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2a2f3c9b52asm183080905ad.45 - gsmtp')
+2025-12-25 22:00:25,809 | ERROR | TaskFlow | Failed to send email to recipient1@gmail.com | (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7ff7b12a7dasm20040655b3a.22 - gsmtp')
+2025-12-25 22:00:28,719 | ERROR | TaskFlow | Failed to send email to recipient2@gmail.com | (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-34e70d4f887sm21631363a91.3 - gsmtp')
+2025-12-25 22:00:28,727 | INFO | TaskFlow | Daily Execution Summary
+2025-12-25 22:00:28,727 | INFO | TaskFlow | Total Runs   : 6
+2025-12-25 22:00:28,727 | INFO | TaskFlow | Successful  : 0
+2025-12-25 22:00:28,728 | INFO | TaskFlow | Failed      : 6
+2025-12-25 22:00:28,730 | INFO | TaskFlow | CSV report generated: C:\Users\sunil\OneDrive\Desktop\Projects\TaskFlow\src\reports_output\execution_report_2025-12-25.csv
+2025-12-25 22:00:31,932 | ERROR | TaskFlow | Failed to send daily summary to recipient1@gmail.com | (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-34e922278a4sm18637859a91.11 - gsmtp')
+2025-12-25 22:00:34,117 | ERROR | TaskFlow | Failed to send daily summary to recipient2@gmail.com | (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2a2f3c9c0acsm183296495ad.44 - gsmtp')
+2025-12-25 22:05:15,068 | ERROR | TaskFlow | Failed to send email to chelz810pv2001@gmail.com | (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7ff7e197f9asm19453960b3a.43 - gsmtp')
+2025-12-25 22:05:17,400 | ERROR | TaskFlow | Failed to send email to chelsipatoliya@gmail.com | (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7ff7e197983sm19774113b3a.33 - gsmtp')
+2025-12-25 22:05:17,400 | INFO | TaskFlow | Daily Execution Summary
+2025-12-25 22:05:17,400 | INFO | TaskFlow | Total Runs   : 6
+2025-12-25 22:05:17,400 | INFO | TaskFlow | Successful  : 0
+2025-12-25 22:05:17,401 | INFO | TaskFlow | Failed      : 6
+2025-12-25 22:05:17,404 | INFO | TaskFlow | CSV report generated: C:\Users\sunil\OneDrive\Desktop\Projects\TaskFlow\src\reports_output\execution_report_2025-12-25.csv
+2025-12-25 22:05:20,136 | ERROR | TaskFlow | Failed to send daily summary to chelz810pv2001@gmail.com | (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2a2f3d5d6e4sm184571015ad.75 - gsmtp')
+2025-12-25 22:05:22,694 | ERROR | TaskFlow | Failed to send daily summary to chelsipatoliya@gmail.com | (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7ff7b22536esm19544840b3a.23 - gsmtp')
+2025-12-25 22:06:44,176 | ERROR | TaskFlow | Failed to send email to chelz810pv2001@gmail.com | (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2a322d76a19sm136386525ad.101 - gsmtp')
+2025-12-25 22:06:44,178 | INFO | TaskFlow | Daily Execution Summary
+2025-12-25 22:06:44,178 | INFO | TaskFlow | Total Runs   : 6
+2025-12-25 22:06:44,178 | INFO | TaskFlow | Successful  : 0
+2025-12-25 22:06:44,178 | INFO | TaskFlow | Failed      : 6
+2025-12-25 22:06:44,181 | INFO | TaskFlow | CSV report generated: C:\Users\sunil\OneDrive\Desktop\Projects\TaskFlow\src\reports_output\execution_report_2025-12-25.csv
+2025-12-25 22:06:46,916 | ERROR | TaskFlow | Failed to send daily summary to chelz810pv2001@gmail.com | (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7ff7eb85f15sm19721654b3a.68 - gsmtp')
+2025-12-25 22:07:10,976 | ERROR | TaskFlow | Failed to send email to chelz810pv2001@gmail.com | (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c1e7c143aa8sm17243483a12.24 - gsmtp')
+2025-12-25 22:07:10,977 | INFO | TaskFlow | Daily Execution Summary
+2025-12-25 22:07:10,977 | INFO | TaskFlow | Total Runs   : 6
+2025-12-25 22:07:10,977 | INFO | TaskFlow | Successful  : 0
+2025-12-25 22:07:10,977 | INFO | TaskFlow | Failed      : 6
+2025-12-25 22:07:10,979 | INFO | TaskFlow | CSV report generated: C:\Users\sunil\OneDrive\Desktop\Projects\TaskFlow\src\reports_output\execution_report_2025-12-25.csv
+2025-12-25 22:07:14,435 | ERROR | TaskFlow | Failed to send daily summary to chelz810pv2001@gmail.com | (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7ff7af2b60bsm19915002b3a.15 - gsmtp')
+2025-12-25 22:15:15,231 | ERROR | TaskFlow | Failed to send email to chelz810pv2001@gmail.com | (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2a2f3c74490sm182426855ad.5 - gsmtp')
+2025-12-25 22:15:15,232 | INFO | TaskFlow | Daily Execution Summary
+2025-12-25 22:15:15,233 | INFO | TaskFlow | Total Runs   : 6
+2025-12-25 22:15:15,233 | INFO | TaskFlow | Successful  : 0
+2025-12-25 22:15:15,233 | INFO | TaskFlow | Failed      : 6
+2025-12-25 22:15:15,236 | INFO | TaskFlow | CSV report generated: C:\Users\sunil\OneDrive\Desktop\Projects\TaskFlow\src\reports_output\execution_report_2025-12-25.csv
+2025-12-25 22:15:18,326 | ERROR | TaskFlow | Failed to send daily summary to chelz810pv2001@gmail.com | (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-34e7723c1ecsm10589767a91.3 - gsmtp')

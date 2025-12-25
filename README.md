@@ -75,3 +75,15 @@ git commit -m "Add feature"
 ```
 4. Push and create a pull request
 
+## 👩‍💻 Developer & Contact
+
+**Chelsi Patoliya | Python Developer**
+
+Showcasing proficiency in building scalable, automated, and well-architected Python applications.
+
+**Contact Information:**
+
+- 📧 Email: chelsipatoliya@gmail.com  
+- 📱 Phone: +91 9313373532  
+- 🔗 LinkedIn: [https://www.linkedin.com/in/chelsipatoliya0316](https://www.linkedin.com/in/chelsipatoliya0316)  
+- 💻 GitHub: [https://github.com/ChelsiHub](https://github.com/ChelsiHub)  

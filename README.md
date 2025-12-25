@@ -87,3 +87,7 @@ Showcasing proficiency in building scalable, automated, and well-architected Pyt
 - 📱 Phone: +91 9313373532  
 - 🔗 LinkedIn: [https://www.linkedin.com/in/chelsipatoliya0316](https://www.linkedin.com/in/chelsipatoliya0316)  
 - 💻 GitHub: [https://github.com/ChelsiHub](https://github.com/ChelsiHub)  
+
+## License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
